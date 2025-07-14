@@ -1,0 +1,53 @@
+.inter-normal {
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: normal;
+font-style: normal;
+}
+
+.header {
+  background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px 150px; 
+}
+
+.text-primary {
+  color: #4E47FF;
+  font-size: 34px;
+  padding: 0; 
+}
+
+.banner {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  padding: 0 30px; 
+  font-weight: bold;
+  font-size: 65px;
+}
+.btn-primary{
+     background-color: #4E47FF;
+     border-radius: 10px;
+     font-weight: bold;
+     color:white;
+     padding:12px 36px;
+     list-style: none;
+    border: none;
+
+}
