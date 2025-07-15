@@ -49,8 +49,12 @@ nav {
      padding:12px 36px;
      list-style: none;
     border: none;
-
+   
 }
+.btn-primary:hover {
+  background-color:#e2ba08;
+}
+
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -67,6 +71,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 96px 149px 136px 151px ;
+    gap: 220px;
 }
 .section-title{
  font-size: 35px;  
@@ -190,4 +195,64 @@ nav {
 {
   background-color: #f5f7ff;
 }
+.contact-wrapper {
+  padding: 100px 80px;
+  display: flex;
+  gap: 500px;
+  align-items: flex-start;
+  background-color: #f5f8ff;
+}
 
+.section-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.2;
+}
+
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+/* Input/textarea style */
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4E47FF;
+  outline: none;
+ 
+}
+.footer-column{
+  gap: 100px;
+}
+.about-title{
+  font-size:100px ;
+  color: #4E47FF;
+  padding-left:120px ;
+}
+.about-description{
+  font-size: 18px;
+  color :#757575
+}
+footer{
+  margin:104px 455px;
+  align-content: center;
+}
+.about-items{
+  display:flex;
+  justify-content: space-around;
+}
