@@ -59,7 +59,7 @@ nav {
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight:weight;
   font-style: normal;
 }
 .preview-pic{
